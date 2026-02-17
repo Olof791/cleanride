@@ -1,0 +1,21 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.video-contained {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: contain;
+}
+
+
+
+
