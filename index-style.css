@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-size: 1.3em;
 }
 
 .video-container {
@@ -27,6 +28,11 @@ video.full-width {
     color: #333;
     text-decoration: none;
     font-size: 2em;
-    border: solid 2px black;
+    border: solid 4px black;
+    
 
+}
+
+.info-img{
+    max-width: 100%;
 }
