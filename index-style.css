@@ -5,6 +5,10 @@ html, body {
 }
 main{
     background-color: ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .video-container {
     position: relative;
@@ -37,10 +41,9 @@ video.full-width {
 
 
 .info-img{
-    max-width: 100%;
-    
-   padding-left: 5px;
-   padding-right: 5px;
+    max-width: 300px;
+    width: 100%;
+    margin: 15px;
     border-radius: 50%;
 }
 
@@ -63,12 +66,19 @@ ul, ol{
     text-decoration: none;
     color: #8ac6c0;
     padding-left: 5px;
-  
+    font-size: 1.2em;
+}
+
+main a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
 }
 
 .loga{
     color: #8ac6c0;
-    font-size: 32px;
+    font-size: 1.2em;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -77,8 +87,7 @@ ul, ol{
     background-color: rgb(78, 110, 129);
     color: #8ac6c0;
     text-align: center;
-    padding-bottom: 10px;
-    
+   
   
 
 }
@@ -87,6 +96,7 @@ h2,p{
 }
 p{
     color: #8ac6c0;
+    font-size: 1.2em;
 }
 
 
